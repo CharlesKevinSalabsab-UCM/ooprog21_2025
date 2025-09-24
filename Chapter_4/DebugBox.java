@@ -24,3 +24,15 @@ public class DebugBox {
         return vol;
     }  
 }
+
+class Main {
+    public static void main(String[] args) {
+        DebugBox box1 = new DebugBox();
+        box1.showData();
+        System.out.println("Volume: " + box1.getVolume());
+
+        DebugBox box2 = new DebugBox(5, 3, 2);
+        box2.showData();
+        System.out.println("Volume: " + box2.getVolume());
+    }
+}
