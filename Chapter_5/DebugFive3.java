@@ -6,7 +6,7 @@
 // Valid and less than 500 - Automotive Department
 // Valid and 500 or higher Housewares Department
 import java.util.Scanner;
-class DebugFive3
+public class DebugFive3
 {
     public static void main (String args[])
     {
