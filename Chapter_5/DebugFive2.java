@@ -3,7 +3,7 @@
 // DebugFive2.java
 // Decides if two numbers are evenly divisible
 import java.util.Scanner;
-class DebugFive2
+public class DebugFive2
 {
     public static void main(String args[])
     {
