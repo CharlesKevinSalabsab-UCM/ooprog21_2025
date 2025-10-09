@@ -1,7 +1,7 @@
 // DebugFive4.java
 // Outputs highest of four numbers
 import java.util.*;
-class DebugFive4
+public class DebugFive4
 {
     public static void main (String args[])
     {
