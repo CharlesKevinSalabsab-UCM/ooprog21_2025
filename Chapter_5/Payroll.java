@@ -16,7 +16,7 @@ class Payroll
 
 
         try {
-            Employee employee = new Employee(totalHours, payRate);
+            Employee employee = new Employee(1410, payRate);
             double regularPay = employee.calculateRegularHours(totalHours);
             double overtimePay = employee.calculateOverHoursTime(totalHours);
             System.out.println("Regular pay is " + regularPay);
