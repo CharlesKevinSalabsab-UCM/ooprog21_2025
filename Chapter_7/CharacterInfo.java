@@ -25,6 +25,7 @@ public class CharacterInfo
 
         if (Character.isWhitespace(ch))
             System.out.println("The character is a whitespace.");
+        else System.out.println("Not a white space");
 
         System.out.println("\nCase Conversion:");
         System.out.println("To Uppercase: " + Character.toUpperCase(ch));
